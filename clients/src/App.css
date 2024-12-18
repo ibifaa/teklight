@@ -1,0 +1,50 @@
+.nav-link {
+  font-size: 14px; 
+  /* color: #333; */
+  transition: all 0.3s ease; 
+}
+
+.nav-link:hover{
+  color: #0939E5; 
+  transform: scale(1.4);
+}
+
+.contact:hover{
+  transform: scale(1.2);
+}
+
+.contact2{
+  background-color: white;
+}
+
+.hero{
+  background-image: url("./assets/png/hero-image.png");
+  height: 100vh;
+  background-position: -57% 20%;
+  background-size: cover;
+}
+
+.custom-swiper-pagination {
+  bottom: -100px; 
+  text-align: center;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: 0.8; 
+  transition: transform 0.2s ease-in-out;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  transform: scale(1.2); 
+  background-color: #ff6347; 
+}
+
+.pix{
+  transition: all 0.3s ease; 
+}
+
+.pix:hover{
+  transform: scale(1.2);
+}
+
