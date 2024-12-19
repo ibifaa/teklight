@@ -1,4 +1,3 @@
-import { SiCoinmarketcap } from "react-icons/si";
 import { services } from "../data/services";
 import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
