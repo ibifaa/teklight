@@ -12,7 +12,7 @@ function Header() {
 const navigate = useNavigate()
 
   return (
-       <div className="relative z-40">
+       <div className="relative z-40 h-[50px]">
        <section className="flex justify-between w-full px-[20px] md:px-[80px] py-4 shadow-lg items-center text-[18px] fixed z-5 bg-white">
        <div className="logo-section ">
             <div className="flex items-center cursor-pointer">
@@ -22,11 +22,12 @@ const navigate = useNavigate()
             </div>
         <div className="nav-items hidden md:block">
             <ul className="flex gap-8 font-normal text-[14px] items-center ">
-                <li className="nav-link cursor-pointer text-[text-[#33324e]">Home</li>
+              <a href="#home"> <li onClick={()=>navigate("/")} className="nav-link cursor-pointer text-[text-[#33324e]">Home</li></a> 
                 <li onClick={()=>navigate("/about")} className="nav-link cursor-pointer text-[text-[#33324e]">About</li>
-                <li className="nav-link cursor-pointer text-[text-[#33324e]">Services</li>
-                <li className="nav-link cursor-pointer text-[text-[#33324e]">Blogs</li>
-                <li className="cursor-pointer contact px-[20px] rounded-lg py-2 ">Contact</li>
+                <li onClick={()=>navigate("/services")} className="nav-link cursor-pointer text-[text-[#33324e]">Services</li>
+                <a href="#blogs"><li  className="nav-link cursor-pointer text-[text-[#33324e]">Blogs</li></a>
+              
+                <a href="#contact"><li className="cursor-pointer contact px-[20px] rounded-lg py-2 ">Contact</li></a>
             </ul>
           </div>
             

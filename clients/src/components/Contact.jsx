@@ -1,7 +1,7 @@
 
 function Contact() {
   return (
-    <div className="px-[20px] md:px-[80px] py-20 bg-[#EDF5FC] flex md:flex-row flex-col gap-5 w-[100%] md:h-[100vh]" >
+    <div id="contact" className="px-[20px] md:px-[80px] py-20 md:py-[60px] bg-[#EDF5FC] flex md:flex-row flex-col gap-5 w-[100%] md:h-[100vh]" >
       <div className="w-full md:w-[55%]">
             <h1 className="text-[50px] md:text-[60px]">We're here to help</h1>
             <p className="text-[22px]">Leave a message and we will get back to you.</p>

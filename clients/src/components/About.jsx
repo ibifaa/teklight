@@ -1,8 +1,10 @@
-import logo from "../assets/svg/logo.svg"
+import logo from "../assets/svg/logo.svg";
+import { useNavigate } from "react-router-dom";
 
 function About() {
+  const navigate = useNavigate()
   return (
-    <div className='py-10 px-[20px] md:px-[80px] text-[18px]'>
+    <div className='py-10 px-[20px] md:px-[80px] text-[18px] '>
 
         <div className="flex md:flex-row ">
         <img className="w-[20%] hidden md:block" src={logo} alt="logo" />
@@ -20,6 +22,8 @@ function About() {
         </div>
         
         <p className="leading-[30px]">With our team of experts and a commitment to excellence, TekLight is your trusted partner in driving growth, innovation, and success. Together, we can create meaningful impact and shape the future!</p>
+
+        <button className="text-[#0939E5]" onClick={()=>navigate("/about")}>More</button>
       
     </div>
   )

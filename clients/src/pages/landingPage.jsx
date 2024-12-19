@@ -10,9 +10,7 @@ import Contact from "../components/Contact"
 function LandingPage() {
   return (
     <div>
-        <header>
-            <Header/>
-        </header>
+       
         <main>
           <Hero/>
           <About/>
@@ -20,7 +18,7 @@ function LandingPage() {
           <Blogs/>
           <Contact/>
         </main>
-        <Footer/>
+       
       
     </div>
   )

@@ -8,9 +8,9 @@ function Hero() {
     deleteSpeed: 40,
   })
   return (
-    <div className='hero md:px-[80px] px-[20px] content-center z-1 '>
+    <div id="home" className='hero md:px-[80px] px-[20px] content-center z-1 '>
       <div>
-      <h1 className="hero-text text-[50px] md:text-[60px] leading-1 text-white font-semibold w-[100%] md:w-[80%] mt-[80px] md:mt-[120px]">Transform your Business < br className="hidden md:block" /> and <br className="block md:hidden" />Career with our </h1>
+      <h1 className="hero-text text-[50px] md:text-[60px] leading-1 text-white font-semibold w-[100%] md:w-[80%]">Transform your Business < br className="hidden md:block" /> and <br className="block md:hidden" />Career with our </h1>
       <h1 className="hero-text text-[50px] leading-1 text-[#0939E5] font-semibold w-[80%]"> | <span className="">{typeEffect} |</span> </h1>
     
     
