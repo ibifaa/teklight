@@ -28,6 +28,8 @@ const navigate = useNavigate()
                 <a href="#blogs"><li  className="nav-link cursor-pointer text-[text-[#33324e]">Blogs</li></a>
               
                 <a href="#contact"><li className="cursor-pointer contact px-[20px] rounded-lg py-2 ">Contact</li></a>
+
+                <li  className="nav-link cursor-pointer text-[text-[#33324e]">User</li>
             </ul>
           </div>
             
