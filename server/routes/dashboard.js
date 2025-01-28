@@ -6,7 +6,7 @@ import pool from "../db/db.js";
 const router = Router();
 
 
-router.post("/dashboard", async(req, res)=>{
+router.get("/dashboard", async(req, res)=>{
     try {
         if (!req.user) {
           return res.status(403).json({ message: 'Unauthorized access' });

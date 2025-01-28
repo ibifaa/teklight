@@ -12,7 +12,7 @@ function Dashboard () {
   const onloadPage =async()=>{
     try {
      
-      const response = await axios.post(
+      const response = await axios.get(
         'http://localhost:3000/api/auth/dashboard',
         { withCredentials: true }
       );
@@ -30,9 +30,7 @@ function Dashboard () {
   {},
   {
     withCredentials: true,
-    headers: {
-      Authorization: `Bearer YOUR_TOKEN`,
-    },
+ 
   }
 );
      console.log(response);
